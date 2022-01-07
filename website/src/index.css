@@ -113,8 +113,36 @@ border-color: white;
 border-color: white;
   box-shadow:0 0 10px 1px rgba(77,77,77,0.15);
   border: 0.2px black solid;
-max-width: 400px;
+max-width: 350px;
 width: 100vh;
+}
+
+.container .exclude{
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+border-color: white;
+  box-shadow:0 0 10px 1px rgba(77,77,77,0.15);
+  border: 0.2px black solid;
+max-width: 350px;
+width: 100vh;
+}
+
+.container .diet{
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+border-color: white;
+  box-shadow:0 0 10px 1px rgba(77,77,77,0.15);
+  border: 0.2px black solid;
+max-width: 350px;
+width: 100vh;
+}
+
+.container .dietlabel{
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .container{
@@ -134,7 +162,15 @@ section{
 .controls{
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.col{
+  display: flex;
+  align-items: center;
   flex-direction: column;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 550px){
